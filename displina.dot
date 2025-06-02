@@ -1,0 +1,12 @@
+// ejemplo disiplina
+digraph {
+	a [label="nodo a"]
+	b [label="nodo b"]
+	c [label="nodo c"]
+	d [label="nodo d"]
+	a -> b
+	a -> c
+	b -> c
+	c -> d
+	c -> a [constrint=false]
+}
